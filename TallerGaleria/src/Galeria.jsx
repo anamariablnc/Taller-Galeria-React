@@ -1,8 +1,9 @@
-// src/Galeria.jsx
+ 
 import React from 'react';
 import PropTypes from 'prop-types';
-import Image from './Image';
-import './app.css';
+// Comente la llamada al archivo image ya que aun no esta creado...Asi no va a dar error en la ejecucion
+//import Image from './Image';  
+import './App.css';
 
 function Galeria({ images }) {
   return (
